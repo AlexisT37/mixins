@@ -1,0 +1,36 @@
+h1 {
+  font-size: 12px;
+  color: green;
+  border: 2px solid red;
+  -webkit-box-shadow: 2px 2px black;
+          box-shadow: 2px 2px black;
+}
+
+.container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2 {
+  color: #22227d;
+}
+
+.triangle_test {
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid fuchsia;
+  border-left: 50px solid #3b3bca;
+  border-right: 50px solid teal;
+}
+/*# sourceMappingURL=style.css.map */
